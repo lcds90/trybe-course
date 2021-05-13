@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-decoration: orange;
+}
+
+ul {
+    background-color: orange;
+    line-height: 100px;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.bg {
+    background-color: orangered;
+}
+
+ul>li:nth-child(1) {
+    background-color: yellow
+}
+
+ul>li:nth-child(2) {
+    background-color: red;
+}
+
+ul>li:nth-child(3) {
+    background-color: brown;
+}
