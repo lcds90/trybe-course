@@ -1,0 +1,52 @@
+.ex-3-4 {
+    height: 100%;
+}
+
+.ex-3-4 > div:nth-of-type(1){
+    background-color: darkred;
+}
+
+h3:nth-of-type(2) {
+    color: blue;
+}
+
+.ex-3-4 > div:nth-of-type(1) > h3 {
+    color: green;
+}
+
+.ex-3-4 > div:nth-of-type(1):hover {
+    border: 1px solid red;
+}
+
+.ex-3-4 > div:nth-of-type(2) {
+    background: darkorange;
+}
+
+.ex-3-4 > div:nth-of-type(2):hover {
+    border: 1px solid orange;
+}
+
+.ex-3-4 > div:nth-of-type(3) {
+    color: white;
+    background: black;
+}
+
+.ex-3-4 > div:nth-of-type(3):hover {
+    border: 1px solid grey;
+}
+
+.ex-3-4 > div:nth-of-type(4) {
+    background: red;
+}
+
+.ex-3-4 > div:nth-of-type(4):hover {
+    border: 1px solid darkred;
+}
+
+.ex-3-4 > div:nth-of-type(5) {
+    background: orange;
+}
+
+.ex-3-4 > div:nth-of-type(5):hover {
+    border: 1px solid darkorange;
+}
