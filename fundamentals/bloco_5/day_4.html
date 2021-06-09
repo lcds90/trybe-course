@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day_4.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Dia 5 - Bloco 4 - Web Storage</title>
+</head>
+
+<body class="container">
+    <header>
+        <ul>
+
+            <li>
+
+                <div>
+                    <label for="pickColor" class="description">Escolhar a cor antes de clicar no botão</label><br>
+                    <input type="color" id="pickColor">
+                </div>
+                <div>
+                    <button id="changeBackground">
+                        <i class="fas fa-palette fa-lg"></i>
+                    </button>
+                    <span class="description">Cor de fundo da tela</span>
+
+                    <button id="changeTextColor">
+                        <i class="fas fa-paint-brush"></i>
+                    </button>
+                    <span class="description">Cor do texto</span>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <button id="changeTextSize">
+                        <i class="fas fa-text-height"></i>
+                    </button>
+                    <span class="changeSpan">
+                        <i id="fontSizePlus" class="fas fa-plus"></i>
+                        <i id="fontSizeMinus" class="fas fa-minus"></i>
+                        <span class="description">Tamanho da fonte</span>
+                    </span>
+                </div>
+
+                <span class="line"></span>
+
+                <div>
+                    <button id="changeTextLineHeight">
+                        <i class="fas fa-text-width"></i>
+                    </button>
+                    <span class="changeSpan">
+                        <i id="lineHeightPlus" class="fas fa-plus"></i>
+                        <i id="lineHeightMinus" class="fas fa-minus"></i>
+                        <span class="description">Espaçamento entre as linhas</span>
+                    </span>
+                </div>
+            </li>
+
+            <li>
+
+
+                <div>
+                    <button id="changeFontFamily">
+                        <i class="fab fa-fonticons-fi"></i>
+                    </button>
+                    <span class="description">Tipo da fonte</span>
+                </div>
+
+                <span class="line"></span>
+
+                <div>
+                    <select id="fontFamilys">
+                        <option value="default" selected disabled>Selecione o tipo de fonte</option>
+                        <option value="serif">serif</option>
+                        <option value="sans-serif">sans-serif</option>
+                        <option value="monospace">monospace</option>
+                        <option value="cursive">cursive</option>
+                        <option value="fantasy">fantasy</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <main id="main">
+        <h2>Os 34 talentos humanos</h2>
+        <section>
+            <article>
+
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam dictum enim eu accumsan. Cras
+                quis iaculis eros, sed tristique massa. Nulla nec leo turpis. Morbi varius luctus dapibus. Integer vitae
+                arcu pharetra, sodales nulla vel, suscipit enim. Aenean ante nibh, bibendum sit amet facilisis id,
+                elementum et urna. Curabitur aliquam magna id tellus fermentum dapibus. Donec aliquam quam eu mi
+                egestas, nec tincidunt metus condimentum.
+
+                Donec feugiat sapien nec posuere auctor. Fusce vitae neque nec lorem placerat faucibus sit amet non
+                nulla. Suspendisse rhoncus lorem et metus tincidunt, ut blandit orci tempor. Phasellus purus nisl,
+                molestie vitae lectus pretium, euismod vestibulum massa. Nulla bibendum congue ipsum. Nulla quis magna
+                ut enim vehicula lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos. Sed vitae condimentum nunc, nec malesuada tellus. Quisque luctus mi purus, non
+                scelerisque nulla congue vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras
+                imperdiet ipsum in lectus tincidunt euismod. Proin ut quam rhoncus, placerat libero id, molestie dolor.
+                Aenean ac massa ipsum. Duis blandit ligula at feugiat ultrices. Sed pellentesque metus ac lobortis
+                pretium.
+
+                Nullam dignissim elit neque, et fermentum mauris viverra mollis. Praesent suscipit erat eros, lobortis
+                ultricies mi facilisis eu. Ut ullamcorper posuere neque, id tincidunt turpis elementum id. Suspendisse
+                potenti. Sed magna ligula, molestie sit amet bibendum ut, vestibulum vitae ipsum. Nulla eget faucibus
+                nisl, in dictum eros. Phasellus at iaculis nulla. Ut lorem dui, aliquam a lobortis et, congue eget enim.
+                Pellentesque dui metus, bibendum et nunc ut, rutrum pharetra tellus. Proin malesuada nisl id ante
+                suscipit, eleifend sollicitudin metus condimentum. Aliquam consectetur lacus ac justo euismod, et tempus
+                lorem venenatis.
+
+                Duis sagittis ut ex nec dictum. Nullam neque eros, dictum in efficitur nec, fringilla sit amet neque.
+                Suspendisse mauris odio, accumsan sed est vitae, cursus lacinia leo. Curabitur rhoncus hendrerit auctor.
+                Aliquam enim turpis, vehicula at urna sit amet, cursus eleifend lectus. Aenean sit amet neque mauris. In
+                id metus et lorem blandit lobortis et at nisi. Morbi sodales dolor est, at laoreet nibh venenatis a.
+                Pellentesque posuere mi in neque molestie, vel feugiat felis sagittis. Vestibulum finibus dictum magna,
+                nec consequat odio sollicitudin fringilla. In hac habitasse platea dictumst. Donec dictum ullamcorper
+                nisi, vitae euismod diam aliquam a. Proin congue auctor ante. Quisque accumsan lectus lacus, sit amet
+                interdum nisl gravida at.
+
+                Aliquam dapibus lacus non arcu fringilla semper. Vestibulum dictum imperdiet elementum. Donec tristique,
+                elit nec venenatis lacinia, dui mi accumsan lacus, lacinia accumsan metus nunc ut turpis. Maecenas at
+                diam id elit pharetra maximus id sit amet dui. Proin nec accumsan tortor, a bibendum diam. In sodales
+                lacinia aliquam. Donec scelerisque lectus eu risus aliquet, nec rutrum sapien tristique. Vivamus quis
+                rhoncus magna, id bibendum justo.
+
+
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam dictum enim eu accumsan. Cras
+                quis iaculis eros, sed tristique massa. Nulla nec leo turpis. Morbi varius luctus dapibus. Integer vitae
+                arcu pharetra, sodales nulla vel, suscipit enim. Aenean ante nibh, bibendum sit amet facilisis id,
+                elementum et urna. Curabitur aliquam magna id tellus fermentum dapibus. Donec aliquam quam eu mi
+                egestas, nec tincidunt metus condimentum.
+
+                Donec feugiat sapien nec posuere auctor. Fusce vitae neque nec lorem placerat faucibus sit amet non
+                nulla. Suspendisse rhoncus lorem et metus tincidunt, ut blandit orci tempor. Phasellus purus nisl,
+                molestie vitae lectus pretium, euismod vestibulum massa. Nulla bibendum congue ipsum. Nulla quis magna
+                ut enim vehicula lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos. Sed vitae condimentum nunc, nec malesuada tellus. Quisque luctus mi purus, non
+                scelerisque nulla congue vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras
+                imperdiet ipsum in lectus tincidunt euismod. Proin ut quam rhoncus, placerat libero id, molestie dolor.
+                Aenean ac massa ipsum. Duis blandit ligula at feugiat ultrices. Sed pellentesque metus ac lobortis
+                pretium.
+
+                Nullam dignissim elit neque, et fermentum mauris viverra mollis. Praesent suscipit erat eros, lobortis
+                ultricies mi facilisis eu. Ut ullamcorper posuere neque, id tincidunt turpis elementum id. Suspendisse
+                potenti. Sed magna ligula, molestie sit amet bibendum ut, vestibulum vitae ipsum. Nulla eget faucibus
+                nisl, in dictum eros. Phasellus at iaculis nulla. Ut lorem dui, aliquam a lobortis et, congue eget enim.
+                Pellentesque dui metus, bibendum et nunc ut, rutrum pharetra tellus. Proin malesuada nisl id ante
+                suscipit, eleifend sollicitudin metus condimentum. Aliquam consectetur lacus ac justo euismod, et tempus
+                lorem venenatis.
+
+                Duis sagittis ut ex nec dictum. Nullam neque eros, dictum in efficitur nec, fringilla sit amet neque.
+                Suspendisse mauris odio, accumsan sed est vitae, cursus lacinia leo. Curabitur rhoncus hendrerit auctor.
+                Aliquam enim turpis, vehicula at urna sit amet, cursus eleifend lectus. Aenean sit amet neque mauris. In
+                id metus et lorem blandit lobortis et at nisi. Morbi sodales dolor est, at laoreet nibh venenatis a.
+                Pellentesque posuere mi in neque molestie, vel feugiat felis sagittis. Vestibulum finibus dictum magna,
+                nec consequat odio sollicitudin fringilla. In hac habitasse platea dictumst. Donec dictum ullamcorper
+                nisi, vitae euismod diam aliquam a. Proin congue auctor ante. Quisque accumsan lectus lacus, sit amet
+                interdum nisl gravida at.
+
+                Aliquam dapibus lacus non arcu fringilla semper. Vestibulum dictum imperdiet elementum. Donec tristique,
+                elit nec venenatis lacinia, dui mi accumsan lacus, lacinia accumsan metus nunc ut turpis. Maecenas at
+                diam id elit pharetra maximus id sit amet dui. Proin nec accumsan tortor, a bibendum diam. In sodales
+                lacinia aliquam. Donec scelerisque lectus eu risus aliquet, nec rutrum sapien tristique. Vivamus quis
+                rhoncus magna, id bibendum justo.
+            </article>
+        </section>
+    </main>
+    <footer>
+        Projeto para fixar conteudo do bloco!
+    </footer>
+    <script src="day_4.js"></script>
+</body>
+
+</html>

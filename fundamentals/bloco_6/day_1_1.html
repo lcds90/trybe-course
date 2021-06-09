@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários - I</title>
+</head>
+
+<body>
+    <!-- SECTION 6.1 - Formulários I -->
+    <h1>Formulário</h1>
+
+    <!-- NOTE Métodos GET / POST
+    GET = Dados vão para a URL, como parametro e valor.
+    POST = Dados são recebidos através do corpo da requisição
+    -->
+    <form action="" method="">
+
+        <!-- NOTE Label
+        util para outros tipos de input
+        for = cria vinculo entre o rotulo e campo informando seu id 
+        -->
+        <label for="input-text">Digite seu nome</label>
+
+        <!-- NOTE Input
+        Campo de formulário onde usuário insere informações 
+        type = Definir o tipo de entrada
+        placeholder = Para melhorar a usabilidade do formulário, informando o tipo de entrada requerida
+        required = Obrigatoriedade de campo ser preenchido
+        value = Valor pré-definido
+        name = Nome para o campo, informando como ele será recebido pelo formulário 
+        -->
+        <input id="input-text" type="text" placeholder="Insira o texto e clique em enviar" required value="Tryber"
+            name="texto">
+        <br>
+
+        <!-- NOTE Textarea
+        Campo de texto maior, além dos atributos do input, possuí atributos de tamanho:
+        cols = colunas pré definidas
+        rows = linhas pré definidas
+        -->
+        <textarea name="textarea" id="" cols="30" rows="10">Texto pré definido</textarea>
+        <br>
+
+        <!-- NOTE Checkbox
+        Multiplas opções selecionaveis
+        Cada valor é referente ao seu campo, porém o atributo é o que define o mesmo contexto deles
+        PARA GARANTIR USABILIDADE COLOQUEI O LABEM EM TORNO DO INPUT
+        -->
+        <label for="tech1">
+            <input id="tech1" type="checkbox" value="html" name="tech" checked> HTML
+        </label>
+        <label for="tech2">
+            <input id="tech2" type="checkbox" value="css" name="tech" checked> CSS
+        </label>
+        <label for="tech3">
+            <input id="tech3" type="checkbox" value="js" name="tech"> Javascript
+        </label>
+        <br>
+
+        <!-- NOTE Radio
+        Somente uma opção selecionável
+        Importante que se o name estiver diferente, o campo se torna selecionável mais de um -->
+        <label for="role1">
+            <input id="role1" type="radio" name="role" value="front">Front-End
+        </label>
+        <label for="role2">
+            <input id="role2" type="radio" name="role" value="back"> Back-End
+        </label>
+        <label for="role3">
+            <input id="role3" type="radio" name="role" value="full"> Fullstack
+        </label>
+        <br>
+        <!-- NOTE Select
+        Dropdown que possui options para selecionar opções -->
+        <select name="estado" id="dropdown-estado">
+            <option value="sp">São Paulo</option>
+            <option value="bh">Belo Horizonte</option>
+            <option value="ba">Bahia</option>
+            <option value="rj">Rio de Janeiro</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <!-- NOTE Quando se está usando o tipo file, é necessário a declaração do enctype
+    multipart-formdata = informa explicitamente que além de dados possui arquivos do usuário 
+
+    -->
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="user">Usuário</label>
+        <input type="text" name="user" id="user">
+        <br>
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="user-file">
+            <input type="file" name="file" id="user-file">
+        </label>
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <!-- TODO Fazer exemplos com cada tipos de input -->
+
+    <!-- !SECTION -->
+</body>
+
+</html>

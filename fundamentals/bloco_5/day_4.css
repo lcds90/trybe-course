@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid: 100px 1fr 50px / 1fr;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    display: inline;
+    width: 100%;
+}
+
+header ul li .description {
+    font-size: 0.75rem;
+}
+
+#pickColor {
+    width: 75%;
+    margin: auto;
+}
+
+header ul li button {
+    background-color: darkslateblue;
+    padding: 5px 25px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+    box-shadow: 0 0.5px 2px rgba(5, 5, 5, 0.5);
+    z-index: 100;
+}
+
+header ul li button:hover {
+    box-shadow: 0 5px 5px rgba(5, 5, 5, 0.5);
+}
+
+header ul li h1 {
+    display: inline;
+    font-size: 1.2rem;
+    margin: 0 5px;
+    color: white;
+}
+
+header ul li button i {
+    color: white;
+    text-shadow: 0 5px 15px rgb(0, 0, 0, 0.25);
+}
+
+header ul li:nth-child(1) {
+    display: grid;
+    grid: 1fr 1fr / 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+header ul li:nth-child(1) div:nth-of-type(1) {
+    justify-self: center;
+    text-align: center;
+}
+
+header ul li:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+header ul li .line {
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid rgba(5, 5, 5, 0.5);
+}
+
+header ul li:nth-of-type(2) div {
+    display: grid;
+    grid: 1fr / 1fr 1fr;
+    align-items: center;
+}
+
+header ul li:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+header ul li:nth-of-type(3) select {
+    width: 80%;
+}
+
+
+.changeSpan > #fontSizePlus {
+    cursor: zoom-in;
+}
+
+
+.changeSpan > #fontSizeMinus {
+    cursor: zoom-out;
+}
+
+.changeSpan > #lineHeightPlus, .changeSpan > #lineHeightMinus {
+    cursor: w-resize;
+}
+
+main {
+    padding: 25px;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    border-radius: 25px;
+    margin: 15px 0;
+    height: 90%;
+    overflow-y: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(44, 44, 44);
+}

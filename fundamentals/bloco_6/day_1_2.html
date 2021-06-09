@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários - II</title>
+</head>
+<body>
+    <!-- SECTION  6.1 - Formulários II-->
+    <!-- 
+    TODO
+    Adicione os campos de entrada para email e senha.
+    Adicione um checkbox com o texto Lembre-me .
+    Adicione um botão com o texto Entrar .
+    Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha.
+    Adicione o atributo required para os campos de email e senha.
+    Adicione o atributo autocomplete="off" para o campo de email.
+    Adicione o atributo autofocus para o campo de email.
+     -->
+     <form action="" method="get">
+         <p>E-mail</p>
+         <input placeholder="Digite seu email" required autofocus autocomplete="off" type="text" name="email" id="user-email">
+         <p>Senha</p>
+         <input placeholder="Digite sua senha" required type="password" name="password" id="user-password">
+         <p>
+             <label for="user-remember">
+                 <input type="checkbox" name="rememberme" id="user-remember">Lembre-me
+             </label>
+         </p>
+         <button type="submit">Confirmar</button>
+     </form>
+    <!-- !SECTION -->
+
+</body>
+</html>

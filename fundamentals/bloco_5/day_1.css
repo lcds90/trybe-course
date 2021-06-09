@@ -1,0 +1,21 @@
+#day1 > div {
+    border-color: black;
+    border-style: solid;
+}
+#day1 > .title {
+    text-align: center;
+}
+
+#day1 > .main-content {
+    background-color: yellow;
+}
+
+#day1 > .main-content .center-content {
+    background-color: red;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#day1 > .main-content .center-content p {
+    font-style: italic;
+}

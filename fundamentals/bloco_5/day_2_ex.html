@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5.2</title>
+    <link rel="stylesheet" href="day_2ex.css">
+</head>
+<body>
+    <a href="./index.html">Voltar</a>
+</body>
+<script>
+
+// SECTION Exercícios
+
+// TODO Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body ;
+let h1 = document.createElement('h1')
+h1.innerHTML = 'Exercício 5.2 - JavaScript DOM';
+document.body.appendChild(h1);
+// TODO Adicione a tag div com a classe main-content como filho da tag body ;
+let main = document.createElement('div');
+main.classList.add('main-content');
+document.body.appendChild(main);
+// TODO Adicione a tag div com a classe center-content como filho da tag div criada no passo 2;
+let center = document.createElement('div');
+center.classList.add('center-content');
+main.appendChild(center);
+
+// TODO Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+let paragraph = document.createElement('p');
+paragraph.innerHTML = 'Texto de exemplo';
+center.appendChild(paragraph);
+
+// TODO Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
+let left = document.createElement('div');
+left.classList.add('left-content');
+main.appendChild(left);
+// TODO Adicione a tag div com a classe right-content como filho da tag div criada no passo 2;
+let right = document.createElement('div');
+right.classList.add('right-content');
+main.appendChild(right);
+
+// TODO Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image . Esse elemento deve ser filho do div criado no passo 5;
+let img = document.createElement('img');
+img.src = 'https://picsum.photos/200';
+img.classList.add('small-image');
+left.appendChild(img);
+
+// TODO Adicione uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista deve ser filha do div criado no passo 6;
+let ul = document.createElement('ul');
+for(let i = 0; i < 10; i += 1) {
+    let li = document.createElement('li');
+    li.innerText = `Linha ${i}`;
+    ul.appendChild(li);
+}
+right.appendChild(ul);
+
+// TODO Adicione 3 tags h3 , todas sendo filhas do div criado no passo 2.
+for(let i = 0; i < 3; i += 1) {
+    let h3 = document.createElement('h3')
+    h3.innerText = `Heading ${i}`;
+    main.appendChild(h3);
+}
+
+// !SECTION
+
+
+// !SECTION
+</script>
+</html>

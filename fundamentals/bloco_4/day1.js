@@ -1,4 +1,5 @@
 // SECTION 4.1 - Javascript - Primeiros Passos
+// LINK https://app.betrybe.com/course/fundamentals/introducao-a-javascript-e-logica-de-programacao/javascript-primeiros-passos/33d74e1e-05b9-4ce8-86e3-623c96afe64d/exercicios/b657369f-0505-411a-9f33-2e2572a6d6a7/agora-a-pratica/35850c83-b281-4226-b0d2-08afd8b767c2?use_case=side_bar
 
 // SECTION Contéudo
 
@@ -142,6 +143,8 @@ Como dica, você pode pesquisar uma função que faz uma string ficar com todas 
 Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
 Exemplo: bishop (bispo) -> diagonals (diagonais)
 */
+
+// TODO
 let peca = "bishop"
 peca = peca.toLowerCase()
 switch (peca) {
