@@ -12,7 +12,7 @@
     <!-- SECTION Formulários - III -->
     <!-- NOTE Pode-se observar que nesta seção os labels sempre ficam como pai do elemento input! -->
     <h1>Formulário</h1>
-    <form action="" enctype="multipart/form-data" method="get">
+    <form action="" id="form" enctype="multipart/form-data" method="get">
         <label for="fullname">Nome completo:
             <input placeholder="Digite seu nome completo" required type="text" name="name" id="fullname">
         </label>
@@ -62,6 +62,11 @@
         <button type="submit">Enviar informações</button>
     </form>
     <!-- !SECTION -->
+    <script>
+        document.querySelector('#form').addEventListener('click', (e) => {
+            e.preventDefault();
+        })
+    </script>
 </body>
 
 </html>
