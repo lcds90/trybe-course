@@ -1,7 +1,6 @@
-# Módulo de Fundamentos de Desenvolvimento Web
+# 🖥 [Módulo] Fundamentos de Desenvolvimento Web 
 
-Resumo de aulas e contéudo abordado!
-Pastas estão dividas por bloco e
+Resumo de aulas e contéudo abordado sobre o módulo de fundamentos do desenvolvimento web.
 
 ## Bloco 1
 
