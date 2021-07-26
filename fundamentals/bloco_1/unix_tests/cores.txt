@@ -1,0 +1,6 @@
+Verde
+Branco
+Preto
+Vermelho
+Amarelo
+Cinza

@@ -1,0 +1,9 @@
+Verde
+Branco
+Preto
+Vermelho
+Amarelo
+CinzaMarrom
+Bege
+Rosa
+Uva
