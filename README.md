@@ -1,7 +1,14 @@
-# Trybe Studies
+<div align=center>
+
+# 🟢 Trybe Studies 🟢
 
 Este repositório foi desenvolvido com intuito de acompanhar todo meu trajeto durante o curso de desenvolvimento web da Trybe.
-## Checklist
+
+<img src="https://freecourse.betrybe.com/images/trybe-logo-e10dbaaa26462aa149b81a924b00df07.png?vsn=d" width="250px">
+
+</div>
+
+## 🟥 Checklist
 
 - [ ] Fundamentals: Bloco 1 ao 10 
 - [ ] Front-End: Bloco 11 ao 19
@@ -12,24 +19,9 @@ Este repositório foi desenvolvido com intuito de acompanhar todo meu trajeto du
 Cada pasta acima contém um arquivo README com detalhes do estudos sobre as seções do módulo e meus estudos durante o período.
 Para uma melhor navegabilidade de contéudo em caso de download do repositório, eu utilizo a extensão [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors)
 
-## Módulos
+## 🟪 Módulos
 
-### Fundamentos do Desenvolvimento Web
-
-<details>
-    <summary>Exercícios</summary>
-
-
-#### Dia 1
-
-
-#### Dia 2
-
-</details>
-
-* * *
-
-### Desenvolvimento Front-End
+### 🖥 Fundamentos do Desenvolvimento Web
 
 <details>
     <summary>Exercícios</summary>
@@ -44,7 +36,22 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 
 * * *
 
-### Desenvolvimento Back-End
+### 🧩 Desenvolvimento Front-End
+
+<details>
+    <summary>Exercícios</summary>
+
+
+#### Dia 1
+
+
+#### Dia 2
+
+</details>
+
+* * *
+
+### ⚙️ Desenvolvimento Back-End
 
 <details>
     <summary>Exercícios</summary>
@@ -71,3 +78,5 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 #### Dia 2
 
 </details>
+
+### 🧠 Soft Skills
