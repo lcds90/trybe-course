@@ -36,8 +36,6 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 
 </details>
 
-* * *
-
 #### Projetos
 
 - [x] [Bloco 3 - Lessons Learned](https://lcds90.github.io/)
@@ -70,7 +68,6 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 
 </details>
 
-* * *
 #### Projetos
 
 - [Bloco 11 - Movie Cards Library]()
@@ -91,8 +88,6 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 
 </details>
 
-* * *
-
 #### Projetos
 
 * * *
@@ -111,7 +106,6 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 
 </details>
 
-* * *
 #### Projetos
 
 * * *
