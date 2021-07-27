@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title';
-import ButtonThisBind from './components/ButtonThisBind';
-import ButtonState from './components/ButtonState';
+import { ButtonThisBind, ButtonState } from './components/Button';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <main>
         <ButtonThisBind />
         <ButtonState />
+        <Form />
       </main>
     </div>
   );

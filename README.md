@@ -2,7 +2,7 @@
 
 # 🟢 Trybe Studies 🟢
 
-Este repositório foi desenvolvido com intuito de anotar todo meu trajeto junto com o conteúdo que venho aprendendo durante o curso de desenvolvimento web da Trybe.
+Este repositório foi desenvolvido com intuito de de conter todas as atividades e projetos desenvolvidos no período que estive na <b>Trybe</b>.
 
 <a href="https://www.betrybe.com/" target="_blank">
 <img src="https://freecourse.betrybe.com/images/trybe-logo-e10dbaaa26462aa149b81a924b00df07.png?vsn=d" width="250px">
@@ -22,7 +22,7 @@ Cada pasta acima contém um arquivo README com detalhes do estudos sobre as seç
 
 Para uma melhor navegabilidade de contéudo em caso de download do repositório, eu utilizo a extensão [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors)
 
-## 🟪 Módulos
+* * *
 
 ### 🖥 Fundamentos do Desenvolvimento Web
 
@@ -64,7 +64,7 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 - [x] [Bloco 7 - Unit Tests](https://github.com/tryber/sd-013-a-project-js-unit-tests/pull/136)
 - [x] [Bloco 8 - Zoo Functions](https://github.com/tryber/sd-013-a-project-zoo-functions/pull/99)
 - [x] [Bloco 9 - Shopping Cart](https://lcds90.github.io/project-shopping-cart-ml/)
-- [x] [Bloco 10 - Jest(Async/Mocking)](https://github.com/tryber/sd-013-a-project-jest/pull/35)
+- [x] [Bloco 10 - Jest (Async/Mocking)](https://github.com/tryber/sd-013-a-project-jest/pull/35)
 
 * * *
 
@@ -196,3 +196,10 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 
 
 ### 🧠 Soft Skills
+
+- [ ] [Inteligência Emocional]()
+- [ ] [Comunicação]()
+- [ ] [Colaboração]()
+- [ ] [Pensamento Crítico]()
+- [ ] [Criatividade]()
+- [ ] [Liderança]()

@@ -1,5 +1,7 @@
 # Bloco 12 - Componentes com Estado, Eventos e Formulários
 
+[Deploy](https://lcds-trybe-bloco12.vercel.app/)
+
 ## Componentes com Estado e Eventos
 
 A intenção do bloco é aprofundar o conhecimento com o conceito de estado.
@@ -30,7 +32,7 @@ Forma de passar componentes de pai para filho, valores fixos que o componente re
 #### State
 Reservado para dados que o componente controla, guarda valores do componente.
 
-## Links Úteis
+#### Links Úteis
 - [State dos Componentes](https://pt-br.reactjs.org/docs/faq-state.html)
 - [Estado e Ciclo de Vida](https://pt-br.reactjs.org/docs/state-and-lifecycle.html)
 - [Manipulando Eventos](https://pt-br.reactjs.org/docs/handling-events.html)
@@ -39,3 +41,10 @@ Reservado para dados que o componente controla, guarda valores do componente.
 - [React JS Tutorial - State](https://www.youtube.com/watch?v=4ORZ1GmjaMc)
 - [React + this + bind](https://medium.com/tableless/https-medium-com-tableless-react-this-bind-so-sei-que-e-assim-73e75f2adbd3)
 - [Binding vs Arrow Function](https://stackoverflow.com/a/56311840)
+
+## Formulários
+
+A transmissão de informação diferente do Javascript convencional onde a informação é armazenado no [próprio DOM](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data), no React isso acontece através de callbacks dos componentes filhos para o pai, tendo então o significado assim de componente controlado devido sua fácil manipulação de acordo com o framework.
+O importante de ressaltar é MANTER O PADRÃO REACT, pois no React você utiliza o virtual DOM, então para evitar efeitos colaterais convém o seu uso, guardando todas essas informações no estado do componente.
+
+
