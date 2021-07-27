@@ -29,10 +29,25 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 <details>
     <summary>Exercícios</summary>
 
-#### Bloco 1
+#### Bloco 1 - Unix & Bash
 
+#### Bloco 2 - Git, Github e Internet
 
-#### Bloco 2
+#### Bloco 3 - Introdução HTML e CSS
+
+#### Bloco 4 - Introdução Javascript e Lógica de Programação
+
+#### Bloco 5 - DOM, Eventos e Web Storage
+
+#### Bloco 6 - Forms, Flexbox e Responsivo
+
+#### Bloco 7 - ES6 e Testes Unitários
+
+#### Bloco 8 - Higher Order Functions
+
+#### Bloco 9 - Javascript Assíncrono e Promises
+
+#### Bloco 10 - Testes automatizados com Jest
 
 </details>
 
@@ -59,20 +74,39 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
     <summary>Exercícios</summary>
 
 
-#### Bloco 11
+#### Bloco 11 - Introdução à React
 
-
-#### Bloco 12 
+#### Bloco 12 - Estado, Eventos e Formulários com React
 - [Link no Repositório](https://github.com/lcds90/trybe-course/tree/main/front-end/bloco_12)
 - [Aplicação]()
+
+#### Bloco 13 - Ciclo de Vida e React Router
+
+#### Bloco 14 - Metodologias Ágeis
+
+#### Bloco 15 - React Testing Library
+
+#### Bloco 16 - Gerenciamento de estado Redux
+
+#### Bloco 17 - Jogo de Trivia
+
+#### Bloco 18 - Context API e React Hooks
+
+#### Bloco 19 - App de Receitas
 
 </details>
 
 #### Projetos
 
-- [Bloco 11 - Movie Cards Library]()
-- [Bloco 12 - Movie Cards Library Stateful]()
-
+- [x] [Bloco 11 - Movie Cards Library]()
+- [ ] [Bloco 12 - Movie Cards Library Stateful]()
+- [ ] [Bloco 13 - Movie Cards Library CRUD]()
+- [ ] [Bloco 14 - Frontend Online Store]()
+- [ ] [Bloco 15 - Testes em React]()
+- [ ] [Bloco 16 - Trybe Wallet]()
+- [ ] [Bloco 17 - Trivia]()
+- [ ] [Bloco 18 - Starwars]()
+- [ ] [Bloco 19 - App de Receitas]()
 * * *
 
 ### ⚙️ Desenvolvimento Back-End
@@ -81,14 +115,49 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
     <summary>Exercícios</summary>
 
 
-#### Bloco 1
+#### Bloco 20 - Introdução à SQL
 
+#### Bloco 21 - Funções SQL, Joins e Subqueries
 
-#### Bloco 2
+#### Bloco 22 - Normalização e Modelagem de Banco de Dados
+
+#### Bloco 23 - Introdução a Mongo DB
+
+#### Bloco 24 - MongoDB: Updates
+
+#### Bloco 25 -  Aggregation Framework
+
+#### Bloco 26 - Desenvolvimento Web com Node JS
+
+#### Bloco 27 - Camada de serviço, REST e RESTful
+
+#### Bloco 28 - Autenticação e Upload de Arquivos
+
+#### Bloco 29 - Deployment
+
+#### Bloco 30 - SOLID e ORM
+
+#### Bloco 31 - Sockets
+
+#### Bloco 32 - Projeto Trybeer
 
 </details>
 
 #### Projetos
+
+- [ ] [Bloco 20 - All For One]()
+- [ ] [Bloco 21 - Vocabulary Booster]()
+- [ ] [Bloco 22 - One For All]()
+- [ ] [Bloco 23 - Data Flights]()
+- [ ] [Bloco 24 - Commerce]()
+- [ ] [Bloco 25 - Aggregations]()
+- [ ] [Bloco 26 - Talker Manager]()
+- [ ] [Bloco 27 - Store Manager]()
+- [ ] [Bloco 28 - Cookmaster]()
+- [ ] [Bloco 29 - Stranger Things]()
+- [ ] [Bloco 30 - API de Blogs]()
+- [ ] [Bloco 31 - Webchat]()
+- [ ] [Bloco 32 - Trybeer]()
 
 * * *
 
@@ -98,15 +167,30 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 <details>
     <summary>Exercícios</summary>
 
+#### Bloco 33 - Arquitetura de Computadores e Redes
 
-#### Dia 1
+#### Bloco 34 - Introdução à Phyton e Raspagem de Dados
 
+#### Bloco 35 - POO e Padrões de Projeto
 
-#### Dia 2
+#### Bloco 36 - Algoritmo e Estrutura de Dados
+
+#### Bloco 37 - Hash e Set
+
+#### Bloco 38 - Estrutura de Dados: Pilhas, Filas e Listas
+
 
 </details>
 
 #### Projetos
+
+- [ ] [Bloco 33 - Explorando os protocolos]()
+- [ ] [Bloco 34 - Tech News]()
+- [ ] [Bloco 35 - Relatórios de Estoque]()
+- [ ] [Bloco 36 - Algoritmos]()
+- [ ] [Bloco 37 - Restaurant Orders]()
+- [ ] [Bloco 38 - TING - Trybe Is Not Google]()
+
 
 * * *
 
