@@ -2,9 +2,11 @@
 
 # 🟢 Trybe Studies 🟢
 
-Este repositório foi desenvolvido com intuito de acompanhar todo meu trajeto durante o curso de desenvolvimento web da Trybe.
+Este repositório foi desenvolvido com intuito de anotar todo meu trajeto junto com o conteúdo que venho aprendendo durante o curso de desenvolvimento web da Trybe.
 
+<a href="https://www.betrybe.com/" target="_blank">
 <img src="https://freecourse.betrybe.com/images/trybe-logo-e10dbaaa26462aa149b81a924b00df07.png?vsn=d" width="250px">
+</a>
 
 </div>
 
@@ -66,7 +68,7 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 
 * * *
 
-### Ciência da computação
+### 🌐 Ciência da computação
 
 <details>
     <summary>Exercícios</summary>
