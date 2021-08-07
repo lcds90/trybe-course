@@ -1,13 +1,13 @@
 .appRickyAndMorty {
   background-size: cover;
   background: linear-gradient(
-    -45deg,
-    var(--primary-color-dark),
-    var(--primary-color),
-    var(--primary-color),
-    var(--primary-color-dark)
+    45deg,
+    lightgrey,
+    rgb(204, 204, 204),
+    darkgrey,
+    white
   );
-  color: rgb(8, 8, 8);
+  color: var(--primary-color-dark);
   padding: 40px 20px;
   text-align: center;
 }

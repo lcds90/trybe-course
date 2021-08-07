@@ -8,29 +8,30 @@ class Connections extends React.Component {
       user: '',
       list: [],
       counter: 0,
+      background: '',
     };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
     this.removeContact = this.removeContact.bind(this);
     this.contactAdder = this.contactAdder.bind(this);
+    this.changeToBlue = this.changeToBlue.bind(this);
+    this.changeToCoral = this.changeToCoral.bind(this);
   }
 
   shouldComponentUpdate(_nextProps, { list }) {
-    const maxContactsNumber = 3;
 
-    return list.length <= maxContactsNumber;
   }
 
-  componentDidUpdate(_prevProps, prevState) {  
+  componentDidUpdate(_prevProps, prevState) {
     const { list } = this.state;
 
     if (prevState.list.length < list.length) {
-      this.changeToBlue();
-      // Ao adicionar um contato, a div ficará azul.
+    this.changeToBlue();
+    // Ao adicionar um contato, a div ficará azul.
     } else if (prevState.list.length > list.length) {
-      this.changeToCoral();
-      // Ao deletar um contato, a div ficará coral.
+    this.changeToCoral();
+    // Ao deletar um contato, a div ficará coral.
     }
   }
 
@@ -39,14 +40,16 @@ class Connections extends React.Component {
       user: value,
     });
   }
-  
+
   async handleClick() {
     const { user, list, counter } = this.state;
     const url = `https://api.github.com/users/${user}`;
     const isUserAbsent = !list.some((contact) => contact.login === user);
+
     try {
       const apiResponse = await fetch(url);
       const profileObject = await apiResponse.json();
+
       if (profileObject.login && isUserAbsent) {
         this.setState({
           list: [...list, profileObject],
@@ -58,6 +61,14 @@ class Connections extends React.Component {
     } catch (error) {
       console.log(error);
     }
+  }
+
+  changeToBlue() {
+    this.setState({ background: 'connections-blue' });
+  }
+
+  changeToCoral() {
+    this.setState({ background: 'connections-coral' });
   }
 
   removeContact(loginToRemove) {
@@ -119,16 +130,15 @@ class Connections extends React.Component {
   }
 
   render() {
-    const { list, counter } = this.state;
+    const { list, counter, background } = this.state;
 
     return (
-      <div className="git-connections">
-        {this.contactAdder(counter)}
-        {this.contactList(list)}
+      <div className={ `git-connections ${background}` }>
+        { this.contactAdder(counter) }
+        { this.contactList(list) }
       </div>
     );
   }
 }
 
 export default Connections;
-

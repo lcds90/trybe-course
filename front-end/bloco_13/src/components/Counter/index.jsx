@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-console */
 import React from 'react';
 import style from './style.module.css';
 
@@ -16,16 +18,16 @@ class Counter extends React.Component {
     console.log('componentDidMount');
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
+  shouldComponentUpdate(_nextProps, _nextState) {
     console.log('shouldComponentUpdate');
     return true;
   }
 
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate(_prevProps, _prevState) {
     console.log('componentDidUpdate');
   }
 
-  handleClick(e) {
+  handleClick(_e) {
     this.setState((state) => ({
       counter: state.counter + 1,
       shouldRender: true,
@@ -42,9 +44,15 @@ class Counter extends React.Component {
       <div className={style.container}>
         <h1 className={style.counterTitle}>Contador</h1>
         <p>
-          Quando o componente é inserido no DOM,{' '}
-          <b>sem o clique no botão Soma</b>, <br />
-          aparecerão as seguintes mensagens no console do seu browser <br />
+          Quando o componente é inserido no DOM,
+          {' '}
+          <b>sem o clique no botão Soma</b>
+          ,
+          {' '}
+          <br />
+          aparecerão as seguintes mensagens no console do seu browser
+          {' '}
+          <br />
         </p>
         <i>
           <ul className={style.listLifeCylces}>
@@ -57,7 +65,7 @@ class Counter extends React.Component {
           A ordem dos chamados refletem a execução dos ciclo de vida do
           componente.
         </p>
-        <button className={style.counterButton} onClick={handleClick}>+ 1</button>
+        <button type="button" className={style.counterButton} onClick={handleClick}>+ 1</button>
         <p className={style.counter}>{counter}</p>
         {shouldRender && (
           <>
@@ -70,9 +78,24 @@ class Counter extends React.Component {
               </ul>
             </i>
             <p>
-                O método render é executado novamente, pois quando há atualização de states ou props, o componente é renderizado novamente. <br />
-                Podemos impedir a renderização retornando <b>false</b> em shouldComponentUpdate, pois o estado é atualizado somente a partir desse ponto sendo possível realizar uma lógica de comparação para sua atualização. <br />
-                Nos métodos <i>shouldComponentUpdate e componentDidUpdate</i> podemos acessar states ou props próximos e anteriores
+              O método render é executado novamente,
+              pois quando há atualização de states ou props, o componente é renderizado novamente.
+              {' '}
+              <br />
+              Podemos impedir a renderização retornando
+              {' '}
+              <b>false</b>
+              {' '}
+              em shouldComponentUpdate,
+              pois o estado é atualizado somente a partir desse ponto sendo possível
+              realizar uma lógica de comparação para sua atualização.
+              {' '}
+              <br />
+              Nos métodos
+              {' '}
+              <i>shouldComponentUpdate e componentDidUpdate</i>
+              {' '}
+              podemos acessar states ou props próximos e anteriores
             </p>
           </>
         )}

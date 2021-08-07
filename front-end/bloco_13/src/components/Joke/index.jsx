@@ -16,6 +16,10 @@ class DadJoke extends React.Component {
     };
   }
 
+  componentDidMount() {
+    this.fetchJoke();
+  }
+
   async fetchJoke() {
     this.setState(
       { loading: true }, // Primeiro parâmetro da setState()!
@@ -23,19 +27,15 @@ class DadJoke extends React.Component {
         const requestHeaders = { headers: { Accept: 'application/json' } };
         const requestReturn = await fetch(
           'https://icanhazdadjoke.com/',
-          requestHeaders
+          requestHeaders,
         );
         const requestObject = await requestReturn.json();
         this.setState({
           loading: false,
           jokeObj: requestObject,
         });
-      }
+      },
     );
-  }
-
-  componentDidMount() {
-    this.fetchJoke();
   }
 
   saveJoke() {
@@ -46,10 +46,11 @@ class DadJoke extends React.Component {
   }
 
   renderJokeElement() {
+    const { state: { jokeObj: { joke } }, saveJoke } = this;
     return (
       <div>
-        <p>{this.state.jokeObj.joke}</p>
-        <button type='button' onClick={this.saveJoke}>
+        <p>{ joke }</p>
+        <button type="button" onClick={saveJoke}>
           Salvar piada!
         </button>
       </div>
