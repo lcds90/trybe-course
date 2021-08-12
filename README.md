@@ -30,24 +30,25 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
     <summary>Exercícios</summary>
 
 #### Bloco 1 - Unix & Bash
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_1)
 #### Bloco 2 - Git, Github e Internet
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_2)
 #### Bloco 3 - Introdução HTML e CSS
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_3)
 #### Bloco 4 - Introdução Javascript e Lógica de Programação
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_4)
 #### Bloco 5 - DOM, Eventos e Web Storage
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_5)
 #### Bloco 6 - Forms, Flexbox e Responsivo
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_6)
 #### Bloco 7 - ES6 e Testes Unitários
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_7)
 #### Bloco 8 - Higher Order Functions
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_8)
 #### Bloco 9 - Javascript Assíncrono e Promises
-
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_9)
 #### Bloco 10 - Testes automatizados com Jest
+- [Link no repositório](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_10)
 
 </details>
 
