@@ -1,0 +1,39 @@
+.TitleLogo {
+  height: 10vh;
+  pointer-events: none;
+  animation: TitleLogo-spin infinite 5s linear;
+}
+
+.TitleHeader {
+  background-color: var(--primary-color-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.TitleHeader > h1 {
+  outline: 2.5px solid var(--primary-color);
+  outline-offset: 5px;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.TitleLink {
+  color: var(--primary-color);
+  margin-inline: 10px;
+  font-size: 1rem;
+}
+
+@keyframes TitleLogo-spin {
+  from {
+    transform: rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
