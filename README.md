@@ -52,7 +52,7 @@ Cada pasta acima contém um arquivo README com detalhes do estudos sobre as seç
 
 #### Projetos
 
-- [x] Bloco 3 - Lessons Learned - [Deploy](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_1) | [Código Fonte](https://github.com/lcds90/lcds90.github.io/tree/trybe-version)
+- [x] Bloco 3 - Lessons Learned - [Deploy](hhttps://lcds90-lessons-learned.vercel.app/) | [Código Fonte](https://github.com/lcds90/lcds90.github.io/tree/trybe-version)
 - [x] Bloco 4 - Playground Functions - [Deploy](https://lcds90-playground-functions.vercel.app/) | [Código fonte](https://github.com/lcds90/trybe-playground-functions/tree/trybe-version)
 - [x] Bloco 5 - Pixels Art - [Deploy](https://trybe-pixels-art.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-pixels-art)
 - [x] Bloco 5 - Todo List - [Deploy](https://lcds90-todo-list.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-todo-list/tree/trybe-version)
