@@ -56,10 +56,10 @@ Cada pasta acima contém um arquivo README com detalhes do estudos sobre as seç
 - [x] Bloco 4 - Playground Functions - [Deploy](https://lcds90-playground-functions.vercel.app/) | [Código fonte](https://github.com/lcds90/trybe-playground-functions/tree/trybe-version)
 - [x] Bloco 5 - Pixels Art - [Deploy](https://trybe-pixels-art.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-pixels-art)
 - [x] Bloco 5 - Todo List - [Deploy](https://lcds90-todo-list.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-todo-list/tree/trybe-version)
-- [x] Bloco 6 - Trybewarts - [Deploy](https://lcds90-trybewarts.vercel.app/) | [Código Fonte]()
+- [x] Bloco 6 - Trybewarts - [Deploy](https://lcds90-trybewarts.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-trybewarts)
 - [x] Bloco 7 - Unit Tests - [Código Fonte](https://github.com/lcds90/trybe-unit-tests)
 - [x] Bloco 8 - Zoo Functions - [Código Fonte](https://github.com/lcds90/trybe-zoo-functions)
-- [x] Bloco 9 - Shopping Cart - [Deploy](https://trybe-shopping-cart-ml.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-shopping-cart-ml/tree/trybe-version)
+- [x] Bloco 9 - Shopping Cart - [Deploy](https://lcds90-shopping-cart-ml.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-shopping-cart-ml/tree/trybe-version)
 - [x] Bloco 10 - Jest (Async/Mocking) - [Código Fonte](https://github.com/lcds90/trybe-jest-async-mocking)
 
 * * *
