@@ -12,7 +12,7 @@ Este repositório foi desenvolvido com intuito de de conter todas as atividades 
 
 ## 🟥 Checklist
 
-- [ ] Fundamentals: Bloco 1 ao 10 
+- [x] Fundamentals: Bloco 1 ao 10 
 - [ ] Front-End: Bloco 11 ao 19
 - [ ] Back-End: Bloco 20 ao 32
 - [ ] Computer-Science: Bloco 33 ao 38
@@ -20,11 +20,9 @@ Este repositório foi desenvolvido com intuito de de conter todas as atividades 
 
 Cada pasta acima contém um arquivo README com detalhes do estudos sobre as seções do módulo e meus estudos durante o período.
 
-Para uma melhor navegabilidade de contéudo em caso de download do repositório, eu utilizo a extensão [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors)
-
 * * *
 
-### 🖥 Fundamentos do Desenvolvimento Web
+### 🖥 Módulo - Fundamentos do Desenvolvimento Web
 
 <details>
     <summary>Exercícios</summary>
@@ -54,22 +52,19 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 
 #### Projetos
 
-- [x] [Bloco 3 - Lessons Learned](https://lcds90.github.io/)
-- [x] [Bloco 4 - Playground Functions](https://github.com/tryber/sd-013-a-project-playground-functions/pull/28)
-- [x] [Bloco 5 - Pixels Art](https://lcds90.github.io/project-pixels-art/)
-- [x] [Bloco 5 - Todo List](http://todo-list.lcds.me/)
-- [ ] [Bloco 5 - Meme Generator]()
-- [ ] [Bloco 5 - Guess the Color]()
-- [ ] [Bloco 5 - Mysterious Cart]()
-- [x] [Bloco 6 - Trybewarts](https://lcds90.github.io/project-trybewarts/)
-- [x] [Bloco 7 - Unit Tests](https://github.com/tryber/sd-013-a-project-js-unit-tests/pull/136)
-- [x] [Bloco 8 - Zoo Functions](https://github.com/tryber/sd-013-a-project-zoo-functions/pull/99)
-- [x] [Bloco 9 - Shopping Cart](https://lcds90.github.io/project-shopping-cart-ml/)
-- [x] [Bloco 10 - Jest (Async/Mocking)](https://github.com/tryber/sd-013-a-project-jest/pull/35)
+- [x] Bloco 3 - Lessons Learned - [Deploy](https://github.com/lcds90/trybe-course/tree/main/fundamentals/bloco_1) | [Código Fonte](https://github.com/lcds90/lcds90.github.io/tree/trybe-version)
+- [x] Bloco 4 - Playground Functions - [Deploy](https://lcds90-playground-functions.vercel.app/) | [Código fonte](https://github.com/lcds90/trybe-playground-functions/tree/trybe-version)
+- [x] Bloco 5 - Pixels Art - [Deploy](https://trybe-pixels-art.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-pixels-art)
+- [x] Bloco 5 - Todo List - [Deploy](https://lcds90-todo-list.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-todo-list/tree/trybe-version)
+- [x] Bloco 6 - Trybewarts - [Deploy](https://lcds90-trybewarts.vercel.app/) | [Código Fonte]()
+- [x] Bloco 7 - Unit Tests - [Código Fonte](https://github.com/lcds90/trybe-unit-tests)
+- [x] Bloco 8 - Zoo Functions - [Código Fonte](https://github.com/lcds90/trybe-zoo-functions)
+- [x] Bloco 9 - Shopping Cart - [Deploy](https://trybe-shopping-cart-ml.vercel.app/) | [Código Fonte](https://github.com/lcds90/trybe-shopping-cart-ml/tree/trybe-version)
+- [x] Bloco 10 - Jest (Async/Mocking) - [Código Fonte](https://github.com/lcds90/trybe-jest-async-mocking)
 
 * * *
 
-### 🧩 Desenvolvimento Front-End
+### 🧩 Módulo - Desenvolvimento Front-End
 
 <details>
     <summary>Exercícios</summary>
@@ -110,7 +105,7 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 - [ ] [Bloco 19 - App de Receitas]()
 * * *
 
-### ⚙️ Desenvolvimento Back-End
+### ⚙️ Módulo - Desenvolvimento Back-End
 
 <details>
     <summary>Exercícios</summary>
@@ -163,7 +158,7 @@ Para uma melhor navegabilidade de contéudo em caso de download do repositório,
 * * *
 
 
-### 🌐 Ciência da computação
+### 🌐 Módulo - Ciência da computação
 
 <details>
     <summary>Exercícios</summary>
